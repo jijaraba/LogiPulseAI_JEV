@@ -13,6 +13,14 @@ outcome and every decision cites the rule that produced it.
 *The Streamlit console. A note and the parcel constraints go in; `Run triage` sends both to
 Jev and the guardrails return a verdict.*
 
+![The triage verdict for the same event](docs/dashboard-triage-verdict.png)
+
+*The same parcel, evaluated. Jev put 98% on `deliver_neighbor` at 0.97 confidence and scored
+the risk 1.55/3, with both Noul signals below their guardrail thresholds — so rule A auto-approved
+it in 585 ms for $0.000042. Every panel traces back to a primitive: the bars are the Choice
+distribution, the gauge is the Score, the meters are the two Nouls against the thresholds that
+would have blocked the delivery.*
+
 ## Files
 
 | File | Role |
