@@ -1,0 +1,32 @@
+# --- Secrets: never commit these ---------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+*.secret
+.netrc
+
+# --- Local diagnostics (may embed account identifiers) ------------------
+evidencia-uso-typesafe.txt
+*.log
+
+# --- Python -------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Streamlit / editors / OS -------------------------------------------
+.streamlit/secrets.toml
+.DS_Store
+.idea/
+.vscode/

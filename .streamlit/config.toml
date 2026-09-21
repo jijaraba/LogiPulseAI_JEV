@@ -1,0 +1,12 @@
+# TypeSafe AI visual language: rose plane, near-black ink, mono type.
+# Charts render on the white panel surface (#fefefe) the palette was validated against.
+[theme]
+base = "light"
+primaryColor = "#1e1e1e"
+backgroundColor = "#f386a1"
+secondaryBackgroundColor = "#fefefe"
+textColor = "#1e1e1e"
+font = "monospace"
+
+[server]
+headless = true

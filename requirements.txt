@@ -1,0 +1,9 @@
+# LogiPulse AI — runtime dependencies. Requires Python >= 3.10 (typesafe-sdk floor).
+typesafe-sdk>=0.7.0
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.12.0
+streamlit>=1.39.0
+plotly>=5.24.0
+requests>=2.32.0
+python-dotenv>=1.0.0
