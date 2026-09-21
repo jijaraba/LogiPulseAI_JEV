@@ -8,6 +8,11 @@ event in a single parallel pass. It never decides anything: deterministic guardr
 `api.py` turn those primitives into the verdict, so the same event always yields the same
 outcome and every decision cites the rule that produced it.
 
+![LogiPulse AI dashboard — the delivery event form](docs/dashboard-delivery-event.png)
+
+*The Streamlit console. A note and the parcel constraints go in; `Run triage` sends both to
+Jev and the guardrails return a verdict.*
+
 ## Files
 
 | File | Role |
@@ -155,6 +160,7 @@ against the usage console.
 
 ## Dashboard
 
+[The screenshot above](#logipulse-ai--logistics-triage--exceptions-engine) shows the input half.
 Sidebar holds the connection settings, a scenario selector (neighbour note, signature-bypass
 attempt, ambiguous note, high-value parcel) and the live guardrail thresholds. The results
 panel shows the status/action/latency/cost tiles, the applied-rule banner, the RLCD
